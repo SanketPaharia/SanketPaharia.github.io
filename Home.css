@@ -626,7 +626,6 @@
   }
 } .u-section-4 {
   background-image: none;
-  min-height: 658px;
 }
 
 .u-section-4 .u-text-1 {
@@ -896,7 +895,6 @@
 }
 
 .u-section-4 .u-gallery-2 {
-  height: 150px;
   margin-top: 68px;
   margin-bottom: 60px;
 }
@@ -1066,6 +1064,20 @@
 }
 
 .u-section-4 .u-over-slide-26 {
+  padding: 20px;
+}
+
+.u-section-4 .u-gallery-item-27 {
+  margin-right: 26px;
+  box-shadow: 2px 2px 8px 0px rgba(128,128,128,1);
+  transition-duration: 1.75s;
+}
+
+.u-section-4 .u-back-image-27 {
+  width: 145px;
+}
+
+.u-section-4 .u-over-slide-27 {
   padding: 20px;
 }
 
@@ -1259,9 +1271,17 @@
   .u-section-4 .u-gallery-item-26 {
     margin-right: 12px;
   }
+
+  .u-section-4 .u-gallery-item-27 {
+    margin-right: 12px;
+  }
 }
 
 @media (max-width: 991px) {
+   .u-section-4 {
+    min-height: 618px;
+  }
+
   .u-section-4 .u-text-1 {
     margin-top: 73px;
     margin-left: auto;
@@ -1273,6 +1293,7 @@
 
   .u-section-4 .u-gallery-2 {
     margin-top: 45px;
+    height: 149px;
   }
 }
 
@@ -1350,6 +1371,10 @@
   }
 
   .u-section-4 .u-gallery-item-26 {
+    margin-right: 14px;
+  }
+
+  .u-section-4 .u-gallery-item-27 {
     margin-right: 14px;
   }
 }.u-section-5 .u-sheet-1 {
@@ -1537,6 +1562,8 @@
   left: 10px;
   width: 40px;
   height: 40px;
+  background-image: none;
+  padding: 10px;
 }
 
 .u-section-5 .u-gallery-nav-2 {
@@ -1544,6 +1571,26 @@
   right: 10px;
   width: 40px;
   height: 40px;
+  background-image: none;
+  padding: 10px;
+}
+
+.u-section-5 .u-gallery-nav-3 {
+  position: absolute;
+  left: 10px;
+  width: 40px;
+  height: 40px;
+  background-image: none;
+  padding: 10px;
+}
+
+.u-section-5 .u-gallery-nav-4 {
+  position: absolute;
+  right: 10px;
+  width: 40px;
+  height: 40px;
+  background-image: none;
+  padding: 10px;
 }
 
 @media (max-width: 1199px) {
@@ -1649,6 +1696,10 @@
 @media (max-width: 575px) {
   .u-section-5 .u-text-1 {
     font-size: 1.5rem;
+  }
+
+  .u-section-5 .u-list-1 {
+    margin-top: 52px;
   }
 
   .u-section-5 .u-repeater-1 {
@@ -2063,13 +2114,13 @@
 }.u-section-6 .u-sheet-1 {
   min-height: 400px;
 }.u-section-7 .u-sheet-1 {
-  min-height: 301px;
+  min-height: 259px;
 }
 
 .u-section-7 .u-text-1 {
   width: 670px;
   font-size: 1.25rem;
-  margin: 40px auto 0;
+  margin: 30px auto 0;
 }
 
 .u-section-7 .u-social-icons-1 {
@@ -2101,7 +2152,7 @@
 .u-section-7 .u-text-2 {
   width: 527px;
   letter-spacing: 2px;
-  margin: 30px auto 60px;
+  margin: 30px auto;
 }
 
 @media (max-width: 767px) {
@@ -2125,6 +2176,5 @@
 
   .u-section-7 .u-text-2 {
     width: 340px;
-    margin-bottom: 22px;
   }
 }
