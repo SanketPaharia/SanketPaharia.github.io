@@ -1,0 +1,25 @@
+{
+  "name": "ls",
+  "version": "1.0.0",
+  "description": "",
+  "main": "jquery.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SanketPaharia/SanketPaharia.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SanketPaharia/SanketPaharia.github.io/issues"
+  },
+  "homepage": "https://github.com/SanketPaharia/SanketPaharia.github.io#readme",
+  "dependencies": {
+    "npm": "^9.1.2",
+    "react": "^18.2.0",
+    "react-github-calendar": "^3.3.4",
+    "react-tooltip": "^4.5.1"
+  }
+}
