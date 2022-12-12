@@ -30,6 +30,13 @@
 				"tel:+917000327410"
 		]
 }</script>
+<script
+  src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"
+></script>
+<link
+   rel="stylesheet"
+   href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
+/>
     <meta name="theme-color" content="#478ac9">
     <meta property="og:title" content="Home">
     <meta property="og:type" content="website">
@@ -426,7 +433,12 @@ c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,24
     <section class="u-clearfix u-grey-5 u-section-6" id="sec-576b">
       <div class="u-clearfix u-sheet u-sheet-1">
         <h2 class="u-align-center u-text u-text-default u-text-palette-1-base u-text-1">Days when I code</h2>
+        <div class="calendar">
+          <!-- Loading stuff -->
+          Loading the data just for you.
       </div>
+      </div>
+
     </section>
     <section class="u-align-center u-clearfix u-section-7" id="carousel_ee01">
       <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
@@ -452,3 +464,8 @@ c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,24
    
   
 </body></html>
+<script>
+  GitHubCalendar(".calendar", "SanketPaharia");
+  // or enable responsive functionality
+  GitHubCalendar(".calendar", "SanketPaharia", { responsive: true });
+</script>
